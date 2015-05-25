@@ -2,7 +2,7 @@
     <div class="page-header">
         <div class="inner">
             <div class="logo pull-left">
-                <a class="navbar-brand" ui-sref="home" mean-token="'site-title'">MEAN</a>
+                <a class="navbar-brand" ui-sref="home" mean-token="'site-title'">Edgar Interactive</a>
             </div>
 
             <div class="left pull-left">
@@ -19,7 +19,10 @@
                     <div class="pull-right" mean-translate></div>
                 </div>
                 <ul class="navbar-nav nav auth-link" ng-show="!hdrctr.hdrvars.authenticated">
-                    <li><a ui-sref='auth.register'>Join</a></li>
+                    <li><a ui-sref='orderTaking'>Order Taking</a></li>
+                    <li><a ui-sref='items'>Items</a></li>
+                    <li><a ui-sref='reports'>Reports</a></li>
+                    <li><a ui-sref='auth.register'>Register</a></li>
                     <li class="divider-vertical"></li>
                     <li><a ui-sref='auth.login'>Log In</a></li>
                 </ul>
