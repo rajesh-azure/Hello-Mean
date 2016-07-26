@@ -1,0 +1,14 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:minimatch:20160620':
+    - forever > forever-monitor > minimatch:
+        patched: '2016-07-26T04:56:08.636Z'
+  'npm:negotiator:20160616':
+    - express > accepts > negotiator:
+        patched: '2016-07-26T04:56:08.636Z'
+  'npm:uglify-js:20151024':
+    - swig > uglify-js:
+        patched: '2016-07-26T04:56:08.636Z'
+    - meanio > swig > uglify-js:
+        patched: '2016-07-26T04:56:08.636Z'
