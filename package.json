@@ -47,7 +47,7 @@
     "view-helpers":"latest",
     "shelljs":"latest",
     "request":"latest",
-    "npm": "^2.1.0"
+    "npm": "^7.0.0"
   },
   "devDependencies": {
     "connect-modrewrite": "latest",
